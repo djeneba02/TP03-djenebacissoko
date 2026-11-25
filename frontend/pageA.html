@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <title>Page A</title>
 </head>
 <body>
-    
+    <div>
+        <nav>
+            <h1>Les Paniers <br> Solidaire du Val</h1>
+            <ul>
+                <li>Accuiel</li>
+                <li>Notre boulangerie</li>
+                <li>Nos paniers</li>
+                <li>Contact</li>
+            <ul>
+                <li><a href="pageB.html">Se connecter</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        
+        <hr>
+        <h1>Connexion</h1>
+        <p>Accédez à votre compte pour passer vos commandes</p>
+       <form action="pageB.html" method="post">
+            
+            <input placeholder="Email" type="email" id="email" name="email" required><br><br>
+            
+            <input placeholder="Mot de passe" type="password" id="password" name="password" required><br><br>
+            <p><a href="pageC.html">Mot de passe oublié?</a></p>
+            <input type="submit" value="Se connecter">
+            <p>Vous n'avez pas de compte? <a href="pageD.html">Créer un compte</a></p>
+        </form>
+        
+    </div>
 </body>
 </html>
